@@ -2,7 +2,7 @@ from flask import Flask, render_template, request
 import random
 import dataset
 app= Flask(__name__)
-db= dataset.connect("postgres://ytrpkutfzviokx:521bcabd11d7f3fd266e295b3d643e4bed6c5d0f7e3719068180f06a0397b3f7@ec2-23-21-96-159.compute-1.amazonaws.com:5432/de62nrcbge44ss")
+db= dataset.connect("postgres://xowcdbrmcsjkou:f88facb0af01e897c53199941adfe619d7679355e42cf50312b711a875c1a57c@ec2-46-137-97-169.eu-west-1.compute.amazonaws.com:5432/dvabm39fnp3b")
 
 @app.route("/Home")
 def Home():
